@@ -298,7 +298,7 @@ class BuildResumeAPIView(APIView):
                 return Response({"error": "No info provided."}, status=400)
 
             # Gemini API setup
-            API_KEY = #Enter key  # Do NOT use in Authorization header
+            API_KEY = "" #Enter key  # Do NOT use in Authorization header
             API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={API_KEY}"
             
             headers = {

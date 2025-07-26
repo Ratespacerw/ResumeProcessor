@@ -5,7 +5,7 @@ from fpdf.enums import XPos, YPos  # Add import for new position enums
 import requests
 from PyQt5.QtWidgets import ( # type: ignore
     QApplication, QWidget, QLabel, QPushButton,
-    QVBoxLayout, QFileDialog, QTextEdit, QMessageBox, QLineEdit
+    QVBoxLayout, QFileDialog, QTextEdit, QMessageBox
 )
 
 # Clean function to remove non-ASCII characters
